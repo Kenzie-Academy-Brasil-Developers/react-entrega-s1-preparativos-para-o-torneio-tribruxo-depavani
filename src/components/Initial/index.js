@@ -36,7 +36,12 @@ function Initial() {
   return (
     <div className="App">
       {!changingPage && <Home randomStudents={randomStudents} />}
-      {changingPage && <CardsPage renderStudents={renderStudents} />}
+      {changingPage && (
+        <CardsPage
+          renderStudents={renderStudents}
+          randomStudents={randomStudents}
+        />
+      )}
     </div>
   );
 }
