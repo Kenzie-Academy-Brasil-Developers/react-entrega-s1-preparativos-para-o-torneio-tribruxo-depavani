@@ -1,0 +1,18 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.characteristics {
+  background-color: #daa02c;
+  color: darkblue;
+}
+
+.card {
+  border: 2px solid #daa02c;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 20px;
+}
