@@ -5,7 +5,6 @@ import "./style.css";
 
 function Initial() {
   const [students, setStudents] = useState([]);
-  const [changingPage, setChangingPage] = useState(false);
 
   const linkApi = "https://hp-api.herokuapp.com/api/characters/students";
   useEffect(() => {
@@ -15,21 +14,25 @@ function Initial() {
       .catch((err) => console.log(err));
   }, []);
 
+  const [changingPage, setChangingPage] = useState(false);
   const [renderStudents, SetRenderStudents] = useState([]);
 
   const randomStudents = () => {
     const rndArr = [];
     const checkingHouse = [];
-    while (rndArr.length < 3) {
+    console.log(students);
+    for (let i = 0; i <= 2; i) {
       const rnd = Math.floor(Math.random() * students.length);
       if (!checkingHouse.includes(students[rnd].house)) {
         rndArr.push(students[rnd]);
         checkingHouse.push(students[rnd].house);
+        i++;
       }
     }
     SetRenderStudents(rndArr);
     setChangingPage(true);
   };
+
   return (
     <div className="App">
       {!changingPage && <Home randomStudents={randomStudents} />}

@@ -3,15 +3,18 @@ import "./style.css";
 const Card = ({ students }) => {
   const { image, name, house } = students;
 
+  //console.log("a casa é:", house);
+
   return (
-    <div className="card">
+    <div className={`${house}`}>
       <div className="img">
         <img src={image} alt={""} />
       </div>
 
       <div className="characteristics">
-        <p className="Name">Nome - {name}</p>
-        <p className="House">Casa - {house}</p>
+        <span>{name}</span>
+        <br />
+        <span>{house}</span>
       </div>
     </div>
   );

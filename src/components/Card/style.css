@@ -3,16 +3,23 @@ img {
   height: 300px;
 }
 
-.characteristics {
-  background-color: #daa02c;
-  color: darkblue;
+.Ravenclaw {
+  border: 6px solid red;
 }
 
-.card {
-  border: 2px solid #daa02c;
-  border-radius: 8px;
+.Slytherin {
+  border: 6px solid seagreen;
 }
 
-p {
+.Hufflepuff {
+  border: 6px solid yellow;
+}
+
+.Gryffindor {
+  border: 6px solid blue;
+}
+
+span {
   font-size: 20px;
+  color: white;
 }
