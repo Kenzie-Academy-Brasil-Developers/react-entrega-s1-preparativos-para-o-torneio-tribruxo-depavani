@@ -20,12 +20,11 @@ function Initial() {
   const randomStudents = () => {
     const rndArr = [];
     const checkingHouse = [];
-    for (let i = 0; i < 3; i) {
+    while (rndArr.length < 3) {
       const rnd = Math.floor(Math.random() * students.length);
-      if (checkingHouse.includes(students[rnd].house)) {
+      if (!checkingHouse.includes(students[rnd].house)) {
         rndArr.push(students[rnd]);
         checkingHouse.push(students[rnd].house);
-        i++;
       }
     }
     SetRenderStudents(rndArr);
