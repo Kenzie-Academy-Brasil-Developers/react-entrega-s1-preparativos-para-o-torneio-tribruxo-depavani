@@ -4,4 +4,7 @@
   width: 100vw;
   background-image: url(HP.jpeg);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

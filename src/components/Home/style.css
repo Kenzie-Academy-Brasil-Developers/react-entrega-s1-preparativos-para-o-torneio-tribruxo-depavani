@@ -1,11 +1,22 @@
 h1,
-p {
-  color: #977021;
+h4 {
+  color: orange;
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
 
-.Home {
-  background-image: url(HP.jpeg);
-  height: 100vh;
+h1 {
+  font-size: 90px;
+  text-shadow: 2px 2px 8px rgb(212, 18, 18);
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: aquamarine;
 }
