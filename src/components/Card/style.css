@@ -1,6 +1,6 @@
 img {
-  width: 130px;
-  height: 110px;
+  width: 100px;
+  height: 90px;
   border-radius: 100%;
 }
 
@@ -8,10 +8,11 @@ img {
 .Slytherin,
 .Hufflepuff,
 .Gryffindor {
-  width: 200px;
+  max-height: 180px;
+  width: 180px;
   padding-top: 10px;
   border-radius: 8px;
-  margin: 7px 0 7px 0;
+  margin: 5px 0 5px 0;
 }
 
 .Ravenclaw {
@@ -44,15 +45,15 @@ span {
 }
 
 button {
-  font-size: 20px;
+  font-size: 16px;
   background-color: orange;
   border: none;
   border-radius: 10px;
-  height: 40px;
-  box-shadow: inset 0 0 8px rgb(131, 128, 131), 0 0 8px orange;
+  height: 30px;
+  box-shadow: inset 0 0 8px rgb(131 128 131), 0 0 8px orange;
   color: white;
   font-weight: 500;
-  margin-top: 30px;
+  width: 155px;
   font-family: "Parry Hotter";
 }
 
@@ -75,4 +76,5 @@ span {
 }
 button {
   width: 60%;
+    margin-top: 30px;
 }*/
