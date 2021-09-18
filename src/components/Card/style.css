@@ -57,24 +57,27 @@ button {
   font-family: "Parry Hotter";
 }
 
-/* img {
-  width: 230px;
-  height: 250px;
-  border-radius: 7px;
-} 
+@media screen and (min-width: 768px) {
+  img {
+    width: 230px;
+    height: 250px;
+    border-radius: 7px;
+  }
 
-span {
-  font-size: 20px;
-}
+  span {
+    font-size: 20px;
+  }
 
-.Ravenclaw,
-.Slytherin,
-.Hufflepuff,
-.Gryffindor {
-  width: 250px;
-  margin: 0;
-}
-button {
-  width: 60%;
+  .Ravenclaw,
+  .Slytherin,
+  .Hufflepuff,
+  .Gryffindor {
+    max-height: 400px;
+    width: 250px;
+    margin: 0;
+  }
+  button {
+    width: 60%;
     margin-top: 30px;
-}*/
+  }
+}
