@@ -2,3 +2,8 @@ h1,
 p {
   color: #977021;
 }
+
+.Home {
+  background-image: url(HP.jpeg);
+  height: 100vh;
+}
