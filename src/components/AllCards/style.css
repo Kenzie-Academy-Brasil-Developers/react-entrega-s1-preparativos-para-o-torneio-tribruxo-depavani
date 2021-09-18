@@ -1,6 +1,5 @@
 .AllCards {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  width: 900px;
+  flex-direction: column;
 }
